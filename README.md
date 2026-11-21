@@ -205,7 +205,6 @@ The Power BI report contains three interactive dashboard pages designed to analy
 
 ## 💡 Key Insights
 
-Key Findings
 - **Overall Attrition:** 16.1% of employees leave the organization.
 - **Departments & Roles:** Sales and HR experience higher attrition than R&D, with Sales Representatives recording the highest attrition.
 - **Age & Tenure:** Younger employees and those with less than two years of service are more likely to leave.
