@@ -88,38 +88,28 @@ The lookup tables store the meanings of numeric codes separately, allowing the r
 | Power Query | Data profiling, cleaning and transformation |
 | DAX | KPI calculations, filter-context analysis and conditional formatting |
 
+
 ## 🔄 Project Workflow
 
-The project followed this end-to-end Power BI workflow:
+<table>
+  <tr>
+    <th align="center"> 📥 Load Data</th>
+    <th align="center"> 🧹 Data Transformation</th>
+    <th align="center"> 🗄️ Data Modelling</th>
+    <th align="center"> 🧮 DAX Measures</th>
+    <th align="center"> 📊 Dashboard</th>
+    <th align="center"> 💡 Insights</th>
+  </tr>
+  <tr>
+    <td align="center">Load employee dataset and seven lookup tables into Power BI.</td>
+    <td align="center">Clean data, remove unnecessary columns and create employee bands using Power Query.</td>
+    <td align="center">Build a star schema with one central employee table and seven lookup tables.</td>
+    <td align="center">Create measures for headcount, attrition, retention, overtime and performance.</td>
+    <td align="center">Develop three interactive report pages with slicers, navigation and conditional formatting.</td>
+    <td align="center">Identify attrition patterns and provide actionable HR recommendations.</td>
+  </tr>
+</table>
 
-<text weight="medium">1. 📥 Load Data</text>
-
-Load the employee dataset and seven lookup tables into Power BI Desktop.
-
-<text weight="medium">↓</text>
-<text weight="medium">2. 🧹 Transform Data in Power Query</text>
-
-Check data quality, remove unnecessary columns, create employee bands and prepare lookup tables.
-
-<text weight="medium">↓</text>
-<text weight="medium">3. 🗄️ Build Data Model</text>
-
-Create a star schema by connecting the central employee table with seven lookup tables using one-to-many relationships.
-
-<text weight="medium">↓</text>
-<text weight="medium">4. 🧮 Create DAX Measures</text>
-
-Develop measures for headcount, attrition, retention, employee averages, overtime comparisons and performance analysis.
-
-<text weight="medium">↓</text>
-<text weight="medium">5. 📊 Design Interactive Dashboard</text>
-
-Build three report pages with synchronized slicers, navigation and conditional formatting.
-
-<text weight="medium">↓</text>
-<text weight="medium">6. 💡 Insights & Recommendations</text>
-
-Identify attrition patterns, examine potential contributing factors and derive actionable HR recommendations.
 
 ## 🧹 Data Quality Assessment
 
